@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de adoção">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1 class="center"><img src="site1/img/pata-de-cachorro.png" alt="pata de cachorro"> Adoção responsável</h1>
+    <h3>Preencha o formulàrio abaixo para adoção do seu mas novo Pet, entraremos em contato!</h3>
+    <br>
+    <form required> 
+      <label required for="campo_nome" >Nome:</label>     
+      <input id="campo_nome" type="text"
+        placeholder="Digite seu nome aqui">
+        
+    <br><br>
+       
+
+        <label 
+        for="campo_sobrenome" >Sobrenome:</label>   
+
+        <input id="campo_sobrenome" type="text"
+             placeholder="Digite seu sobrenome aqui"
+             required >
+             
+             <br><br>
+       
+
+             <label 
+             for="campo_email" >Email:</label>   
+     
+             <input required id="campo_email" type="email"
+                  placeholder="Digite seu email aqui">
+                  
+                  <br><br>
+
+                  <label 
+                  for="campo_telefone">Telefone:</label>   
+          
+                  <input required id="campo_telefone" type="tel"
+                       placeholder="Digite seu telefone aqui">
+                       <br>
+                    
+    </form>
+
+    <form id="frmcheckbox">
+        <div>
+           <h3> Selecione o(s) animal(is) que deseja adota:</h3>
+        </div>
+        <div>
+            <label for="Ariel">Ariel</label>
+            <input type="checkbox" id="Ariel" name="cachorro" value="cachorro">
+        </div>
+        <div>
+            <label for="Natasha">Natasha</label>
+            <input type="checkbox" id="Natasha" name="cachorro" value="cachorro">
+        </div>
+        <div>
+            <label for="Braddock">Braddock</label>
+            <input type="checkbox" id="Braddock" name="cachorro" value="cachorro">
+        </div>
+        <br>
+        
+
+        <input type="submit" value="Enviar formulário">
+
+
+
+
+
+    </form>
+    <br>
+
+
+
+
+    <h2>Tabela com informações dos Pets</h2>
+    
+    <table id="tabela" width="50%" border="1" style="text-align: center;" >
+        <tr> 
+            <th>Nome</th>
+            <th>Porte</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Ariel</td>
+            <td>Médio</td>
+            <td>10 meses</td>
+        </tr>
+        <tr>
+            <td>Natasha</td>
+            <td>Médio</td>
+            <td>7 meses</td>
+        </tr>
+        <tr>
+          <td>Braddock</td>
+            <td>Médio</td>
+            <td>5 meses</td>
+        
+        </tr>
+        
+    </table>
+
+
+
+
+<br><br>
+
+<h3>Para visualizar mais fotos click abaixo</h3>
+
+<button><a href="equipe/Ariel.html">Fotos de Ariel</a></button>
+<br>
+<br>
+<button><a href="equipe/Braddock.html">Fotos de Braddock</a></button>
+<br>
+<br>
+<button><a href="equipe/Natasha.html">Fotos de Natasha</a></button>
+    
+<br>
+<br>
+
+<h3>Para voltar a pagina anterior aperte no botão abaixo</h3>
+<br>
+  <button>  <a href="index.html">voltar para pagina principal</a></button>
+    <br>
+    <br>
+
+
+
+</body>
+</html>
